@@ -1,2 +1,6 @@
-
+<div class="form-group">
+  <label for="file">Choose File</label>
+  <input type="file" id="file" #img>
+  <input type="button" (click)="handleFileInput(img.files)" value="click">
+</div>
 <router-outlet></router-outlet>
